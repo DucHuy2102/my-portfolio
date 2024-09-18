@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Space Grotesk', 'Playfair Display', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-img {
+    background-image: url('./assets/bg-img5.png');
+}

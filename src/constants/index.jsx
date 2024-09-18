@@ -14,12 +14,9 @@ import projectImage4 from '../assets/project4.jpeg';
 import projectImage5 from '../assets/project5.jpeg';
 import projectImage6 from '../assets/project6.jpeg';
 
-import { RiReactjsLine } from 'react-icons/ri';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { SiMongodb } from 'react-icons/si';
-import { DiRedis } from 'react-icons/di';
-import { FaNodeJs } from 'react-icons/fa';
-import { BiLogoPostgresql } from 'react-icons/bi';
+import { FaJava, FaNodeJs } from 'react-icons/fa';
 
 export const NAVIGATION_LINKS = [
     { label: 'Projects', href: '#projects' },
@@ -31,7 +28,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-    name: 'CARL FRANK',
+    name: 'DUC HUY',
     greet: 'Hello there! 👋🏻',
     description:
         'I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.',
@@ -44,54 +41,54 @@ export const PROJECTS = [
         description:
             'A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.',
         image: projectImage1,
-        githubLink: 'https://github.com/user/personal-portfolio',
+        githubLink: 'https://github.com/DucHuy2102/my-portfolio.git',
     },
     {
         id: 2,
-        name: 'E-Commerce Platform',
+        name: 'Watch Store',
         description:
-            'An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.',
+            'A website using ReactJS for the frontend and Java Spring for backend, includes all the features: login, registration, account management, search, viewing and purchasing products, as well as the checkout function.',
         image: projectImage2,
-        githubLink: 'https://github.com/user/ecommerce-platform',
+        githubLink: 'https://github.com/DucHuy2102/Watches_Store.git',
     },
     {
         id: 3,
-        name: 'Task Management Tool',
+        name: 'Blog Application',
         description:
-            'A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.',
+            'This project is a blog application built with the MERN stack, designed for a smooth experience on all devices. It includes secure login with JSON Web Tokens and Google OAuth.',
         image: projectImage3,
-        githubLink: 'https://github.com/user/task-management-tool',
+        githubLink: 'https://github.com/DucHuy2102/mern-blog-app.git',
     },
     {
         id: 4,
-        name: 'Weather App',
+        name: 'Authentication Advance',
         description:
-            'A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.',
+            'An authentication project using the MERN Stack, where users can log in with email and password or via Google. It also includes features for password recovery and reset.',
         image: projectImage4,
-        githubLink: 'https://github.com/user/weather-app',
+        githubLink: 'https://github.com/DucHuy2102/mern-auth.git',
     },
     {
         id: 5,
-        name: 'Blog Platform',
+        name: 'Chat Application',
         description:
-            'A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.',
+            'Chat application including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.',
         image: projectImage5,
-        githubLink: 'https://github.com/user/blog-platform',
+        githubLink: 'https://github.com/DucHuy2102/chat-app-firebase.git',
     },
     {
         id: 6,
-        name: 'Chat Application',
+        name: 'To Do List',
         description:
-            'A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.',
+            'A simple to-do list application built with the MERN stack. Users can create, update, and delete tasks, as well as mark them as completed.',
         image: projectImage6,
-        githubLink: 'https://github.com/user/chat-application',
+        githubLink: 'https://github.com/DucHuy2102/todoList_MERN.git',
     },
 ];
 
 export const BIO = [
-    'Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.',
-    'In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.',
-    'As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.',
+    'Nguyen Duc Huy earned his degree in Information Technology from Ho Chi Minh City University of Technology and Education in 2024. During his studies, he honed his skills in user interface design and mastered key frontend technologies such as HTML, CSS, and JavaScript. His commitment to creating seamless, user-friendly interfaces earned him recognition from peers and professors, establishing a solid foundation for his career in frontend development.',
+    'Driven by a passion for innovative web solutions and exceptional user experiences, Nguyen Duc Huy actively engaged in personal projects, internships, and collaborations during his time at university. These experiences allowed him to apply his frontend development skills in real-world scenarios, blending creativity with cutting-edge technologies. Outside of his professional pursuits, Huy enjoys playing soccer and listening to music, which further fuels his creativity and drive.',
+    'As a frontend developer, Nguyen Duc Huy brings extensive experience and expertise to every project. With a deep understanding of HTML, CSS, JavaScript, and modern frameworks like React, he crafts visually stunning and engaging web experiences. His dedication to pushing the boundaries of design and technology ensures that his clients and audiences are consistently impressed by the digital products he creates.',
 ];
 
 export const SKILLS = [
@@ -101,8 +98,8 @@ export const SKILLS = [
         experience: '2+ years',
     },
     {
-        icon: <TbBrandNextjs className='text-4xl text-white lg:text-5xl' />,
-        name: 'Next.js',
+        icon: <FaJava className='text-4xl text-white lg:text-5xl' />,
+        name: 'Java',
         experience: '1+ year',
     },
     {
@@ -111,19 +108,19 @@ export const SKILLS = [
         experience: '1.5+ years',
     },
     {
-        icon: <DiRedis className='text-4xl text-red-600 lg:text-5xl' />,
-        name: 'Redis',
-        experience: '1+ year',
+        icon: <RiTailwindCssFill className='text-4xl text-red-600 lg:text-5xl' />,
+        name: 'Tailwind CSS',
+        experience: '2+ year',
     },
     {
         icon: <FaNodeJs className='text-4xl text-green-600 lg:text-5xl' />,
         name: 'Node.js',
-        experience: '2+ years',
+        experience: '1+ years',
     },
     {
-        icon: <BiLogoPostgresql className='text-4xl text-sky-700 lg:text-5xl' />,
-        name: 'PostgreSQL',
-        experience: '1+ year',
+        icon: <FaGithub className='text-4xl text-sky-700 lg:text-5xl' />,
+        name: 'Github',
+        experience: '2+ year',
     },
 ];
 
@@ -153,24 +150,17 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
     {
-        degree: 'Master of Science in Computer Science',
-        institution: 'Stanford University',
-        duration: 'September 2012 - June 2014',
+        degree: 'Bachelor of Engineering in Information Technology',
+        institution: 'Ho Chi Minh City University of Technology and Education',
+        duration: 'September 2020 - September 2024',
         description:
             'Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.',
-    },
-    {
-        degree: 'Bachelor of Science in Information Technology',
-        institution: 'University of California, Berkeley',
-        duration: 'September 2008 - June 2012',
-        description:
-            'Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.',
     },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
     {
-        href: 'https://x.com/',
+        href: 'https://www.facebook.com/Duc.Huy2102/',
         icon: <FaFacebook fontSize={25} className='hover:opacity-80' />,
     },
     {
@@ -186,11 +176,11 @@ export const SOCIAL_MEDIA_LINKS = [
         icon: <FaXTwitter fontSize={25} className='hover:opacity-80' />,
     },
     {
-        href: 'https://github.com/',
+        href: 'https://github.com/DucHuy2102',
         icon: <FaGithub fontSize={25} className='hover:opacity-80' />,
     },
     {
-        href: 'https://www.linkedin.com/',
+        href: 'https://www.linkedin.com/in/duchuy2102/',
         icon: <FaLinkedin fontSize={25} className='hover:opacity-80' />,
     },
 ];
