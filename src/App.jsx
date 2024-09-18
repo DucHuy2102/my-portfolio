@@ -3,6 +3,7 @@ import {
     Hero_Component,
     Navbar_Component,
     Projects_Component,
+    Skills_Component,
 } from './components/exportComponent';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
                 <Navbar_Component />
                 <Projects_Component />
                 <Bio_Component />
+                <Skills_Component />
             </div>
         </div>
     );
