@@ -1,4 +1,9 @@
-import { Hero_Component, Navbar_Component, Projects_Component } from './components/exportComponent';
+import {
+    Bio_Component,
+    Hero_Component,
+    Navbar_Component,
+    Projects_Component,
+} from './components/exportComponent';
 
 export default function App() {
     return (
@@ -8,6 +13,7 @@ export default function App() {
                 <Hero_Component />
                 <Navbar_Component />
                 <Projects_Component />
+                <Bio_Component />
             </div>
         </div>
     );
