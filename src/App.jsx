@@ -1,9 +1,11 @@
 import {
     Bio_Component,
+    Education_Component,
     Hero_Component,
     Navbar_Component,
     Projects_Component,
     Skills_Component,
+    WorkExp_Component,
 } from './components/exportComponent';
 
 export default function App() {
@@ -16,6 +18,8 @@ export default function App() {
                 <Projects_Component />
                 <Bio_Component />
                 <Skills_Component />
+                {/* <WorkExp_Component /> */}
+                <Education_Component />
             </div>
         </div>
     );

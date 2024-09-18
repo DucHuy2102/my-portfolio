@@ -19,12 +19,12 @@ import { SiMongodb } from 'react-icons/si';
 import { FaJava, FaNodeJs } from 'react-icons/fa';
 
 export const NAVIGATION_LINKS = [
-    { label: 'Projects', href: '#projects' },
-    { label: 'Bio', href: '#bio' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Work Experience', href: '#work' },
-    { label: 'Education', href: '#education' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Projects', href: 'projects' },
+    { label: 'Bio', href: 'bio' },
+    { label: 'Skills', href: 'skills' },
+    // { label: 'Work Experience', href: 'work' },
+    { label: 'Education', href: 'education' },
+    { label: 'Contact', href: 'contact' },
 ];
 
 export const HERO = {
