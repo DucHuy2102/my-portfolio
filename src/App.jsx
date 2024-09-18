@@ -1,4 +1,4 @@
-import { Hero_Component, Navbar_Component } from './components/exportComponent';
+import { Hero_Component, Navbar_Component, Projects_Component } from './components/exportComponent';
 
 export default function App() {
     return (
@@ -7,6 +7,7 @@ export default function App() {
             <div className='relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto'>
                 <Hero_Component />
                 <Navbar_Component />
+                <Projects_Component />
             </div>
         </div>
     );

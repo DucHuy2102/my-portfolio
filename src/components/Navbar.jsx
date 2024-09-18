@@ -37,7 +37,7 @@ export default function Navbar() {
                     <div className='flex items-center justify-between gap-6'>
                         <div>
                             <a href='#'>
-                                <span className='font-playfair text-3xl italic tracking-widest'>
+                                <span className='font-bold font-playfair text-3xl italic tracking-widest'>
                                     d<span className='text-yellow-400'>H</span>uy
                                 </span>
                             </a>
@@ -65,8 +65,8 @@ export default function Navbar() {
                     <div className='flex justify-between items-center'>
                         <div>
                             <a href='#'>
-                                <span className='pl-2 font-playfair text-3xl italic tracking-widest'>
-                                    d<span className='text-blue-500'>H</span>uy
+                                <span className='font-medium pl-2 font-playfair text-3xl italic tracking-widest'>
+                                    d<span className='text-yellow-500'>H</span>uy
                                 </span>
                             </a>
                         </div>
